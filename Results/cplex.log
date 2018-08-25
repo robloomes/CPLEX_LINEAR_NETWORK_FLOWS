@@ -1,0 +1,2149 @@
+
+Log started (V12.8.0.0) Sun Jun  3 22:49:42 2018
+
+
+Problem 'Y=3.lp' read.
+Read time = 0.01 sec. (0.03 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 293 rows and 340 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.22 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (0.26 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (0.26 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  1.3066666667e+02
+Solution time =    0.01 sec.  Iterations = 0  Nodes = 0
+Deterministic time = 0.26 ticks  (23.32 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+r                           130.666667
+xI1K1J1                       0.666667
+xI1K2J1                       0.666667
+xI1K3J1                       0.666667
+xI1K1J2                       1.000000
+xI1K2J2                       1.000000
+xI1K3J2                       1.000000
+xI1K1J3                       1.333333
+xI1K2J3                       1.333333
+xI1K3J3                       1.333333
+xI1K1J4                       1.666667
+xI1K2J4                       1.666667
+xI1K3J4                       1.666667
+xI1K1J5                       2.000000
+xI1K2J5                       2.000000
+xI1K3J5                       2.000000
+xI1K1J6                       2.333333
+xI1K2J6                       2.333333
+xI1K3J6                       2.333333
+xI1K1J7                       2.666667
+xI1K2J7                       2.666667
+xI1K3J7                       2.666667
+xI2K1J1                       1.000000
+xI2K2J1                       1.000000
+xI2K3J1                       1.000000
+xI2K1J2                       1.333333
+xI2K2J2                       1.333333
+xI2K3J2                       1.333333
+xI2K1J3                       1.666667
+xI2K2J3                       1.666667
+xI2K3J3                       1.666667
+xI2K1J4                       2.000000
+xI2K2J4                       2.000000
+xI2K3J4                       2.000000
+xI2K1J5                       2.333333
+xI2K2J5                       2.333333
+xI2K3J5                       2.333333
+xI2K1J6                       2.666667
+xI2K2J6                       2.666667
+xI2K3J6                       2.666667
+xI2K1J7                       3.000000
+xI2K2J7                       3.000000
+xI2K3J7                       3.000000
+xI3K1J1                       1.333333
+xI3K2J1                       1.333333
+xI3K3J1                       1.333333
+xI3K1J2                       1.666667
+xI3K2J2                       1.666667
+xI3K3J2                       1.666667
+xI3K1J3                       2.000000
+xI3K2J3                       2.000000
+xI3K3J3                       2.000000
+xI3K1J4                       2.333333
+xI3K2J4                       2.333333
+xI3K3J4                       2.333333
+xI3K1J5                       2.666667
+xI3K2J5                       2.666667
+xI3K3J5                       2.666667
+xI3K1J6                       3.000000
+xI3K2J6                       3.000000
+xI3K3J6                       3.000000
+xI3K1J7                       3.333333
+xI3K2J7                       3.333333
+xI3K3J7                       3.333333
+xI4K1J1                       1.666667
+xI4K2J1                       1.666667
+xI4K3J1                       1.666667
+xI4K1J2                       2.000000
+xI4K2J2                       2.000000
+xI4K3J2                       2.000000
+xI4K1J3                       2.333333
+xI4K2J3                       2.333333
+xI4K3J3                       2.333333
+xI4K1J4                       2.666667
+xI4K2J4                       2.666667
+xI4K3J4                       2.666667
+xI4K1J5                       3.000000
+xI4K2J5                       3.000000
+xI4K3J5                       3.000000
+xI4K1J6                       3.333333
+xI4K2J6                       3.333333
+xI4K3J6                       3.333333
+xI4K1J7                       3.666667
+xI4K2J7                       3.666667
+xI4K3J7                       3.666667
+xI5K1J1                       2.000000
+xI5K2J1                       2.000000
+xI5K3J1                       2.000000
+xI5K1J2                       2.333333
+xI5K2J2                       2.333333
+xI5K3J2                       2.333333
+xI5K1J3                       2.666667
+xI5K2J3                       2.666667
+xI5K3J3                       2.666667
+xI5K1J4                       3.000000
+xI5K2J4                       3.000000
+xI5K3J4                       3.000000
+xI5K1J5                       3.333333
+xI5K2J5                       3.333333
+xI5K3J5                       3.333333
+xI5K1J6                       3.666667
+xI5K2J6                       3.666667
+xI5K3J6                       3.666667
+xI5K1J7                       4.000000
+xI5K2J7                       4.000000
+xI5K3J7                       4.000000
+xI6K1J1                       2.333333
+xI6K2J1                       2.333333
+xI6K3J1                       2.333333
+xI6K1J2                       2.666667
+xI6K2J2                       2.666667
+xI6K3J2                       2.666667
+xI6K1J3                       3.000000
+xI6K2J3                       3.000000
+xI6K3J3                       3.000000
+xI6K1J4                       3.333333
+xI6K2J4                       3.333333
+xI6K3J4                       3.333333
+xI6K1J5                       3.666667
+xI6K2J5                       3.666667
+xI6K3J5                       3.666667
+xI6K1J6                       4.000000
+xI6K2J6                       4.000000
+xI6K3J6                       4.000000
+xI6K1J7                       4.333333
+xI6K2J7                       4.333333
+xI6K3J7                       4.333333
+xI7K1J1                       2.666667
+xI7K2J1                       2.666667
+xI7K3J1                       2.666667
+xI7K1J2                       3.000000
+xI7K2J2                       3.000000
+xI7K3J2                       3.000000
+xI7K1J3                       3.333333
+xI7K2J3                       3.333333
+xI7K3J3                       3.333333
+xI7K1J4                       3.666667
+xI7K2J4                       3.666667
+xI7K3J4                       3.666667
+xI7K1J5                       4.000000
+xI7K2J5                       4.000000
+xI7K3J5                       4.000000
+xI7K1J6                       4.333333
+xI7K2J6                       4.333333
+xI7K3J6                       4.333333
+xI7K1J7                       4.666667
+xI7K2J7                       4.666667
+xI7K3J7                       4.666667
+cI1K1                        11.666667
+cI1K2                        11.666667
+cI1K3                        11.666667
+cI2K1                        14.000000
+cI2K2                        14.000000
+cI2K3                        14.000000
+cI3K1                        16.333333
+cI3K2                        16.333333
+cI3K3                        16.333333
+cI4K1                        18.666667
+cI4K2                        18.666667
+cI4K3                        18.666667
+cI5K1                        21.000000
+cI5K2                        21.000000
+cI5K3                        21.000000
+cI6K1                        23.333333
+cI6K2                        23.333333
+cI6K3                        23.333333
+cI7K1                        25.666667
+cI7K2                        25.666667
+cI7K3                        25.666667
+dK1J1                        11.666667
+dK1J2                        14.000000
+dK1J3                        16.333333
+dK1J4                        18.666667
+dK1J5                        21.000000
+dK1J6                        23.333333
+dK1J7                        25.666667
+dK2J1                        11.666667
+dK2J2                        14.000000
+dK2J3                        16.333333
+dK2J4                        18.666667
+dK2J5                        21.000000
+dK2J6                        23.333333
+dK2J7                        25.666667
+dK3J1                        11.666667
+dK3J2                        14.000000
+dK3J3                        16.333333
+dK3J4                        18.666667
+dK3J5                        21.000000
+dK3J6                        23.333333
+dK3J7                        25.666667
+uI1K1J1                       1.000000
+uI1K2J1                       1.000000
+uI1K3J1                       1.000000
+uI1K1J2                       1.000000
+uI1K2J2                       1.000000
+uI1K3J2                       1.000000
+uI1K1J3                       1.000000
+uI1K2J3                       1.000000
+uI1K3J3                       1.000000
+uI1K1J4                       1.000000
+uI1K2J4                       1.000000
+uI1K3J4                       1.000000
+uI1K1J5                       1.000000
+uI1K2J5                       1.000000
+uI1K3J5                       1.000000
+uI1K1J6                       1.000000
+uI1K2J6                       1.000000
+uI1K3J6                       1.000000
+uI1K1J7                       1.000000
+uI1K2J7                       1.000000
+uI1K3J7                       1.000000
+uI2K1J1                       1.000000
+uI2K2J1                       1.000000
+uI2K3J1                       1.000000
+uI2K1J2                       1.000000
+uI2K2J2                       1.000000
+uI2K3J2                       1.000000
+uI2K1J3                       1.000000
+uI2K2J3                       1.000000
+uI2K3J3                       1.000000
+uI2K1J4                       1.000000
+uI2K2J4                       1.000000
+uI2K3J4                       1.000000
+uI2K1J5                       1.000000
+uI2K2J5                       1.000000
+uI2K3J5                       1.000000
+uI2K1J6                       1.000000
+uI2K2J6                       1.000000
+uI2K3J6                       1.000000
+uI2K1J7                       1.000000
+uI2K2J7                       1.000000
+uI2K3J7                       1.000000
+uI3K1J1                       1.000000
+uI3K2J1                       1.000000
+uI3K3J1                       1.000000
+uI3K1J2                       1.000000
+uI3K2J2                       1.000000
+uI3K3J2                       1.000000
+uI3K1J3                       1.000000
+uI3K2J3                       1.000000
+uI3K3J3                       1.000000
+uI3K1J4                       1.000000
+uI3K2J4                       1.000000
+uI3K3J4                       1.000000
+uI3K1J5                       1.000000
+uI3K2J5                       1.000000
+uI3K3J5                       1.000000
+uI3K1J6                       1.000000
+uI3K2J6                       1.000000
+uI3K3J6                       1.000000
+uI3K1J7                       1.000000
+uI3K2J7                       1.000000
+uI3K3J7                       1.000000
+uI4K1J1                       1.000000
+uI4K2J1                       1.000000
+uI4K3J1                       1.000000
+uI4K1J2                       1.000000
+uI4K2J2                       1.000000
+uI4K3J2                       1.000000
+uI4K1J3                       1.000000
+uI4K2J3                       1.000000
+uI4K3J3                       1.000000
+uI4K1J4                       1.000000
+uI4K2J4                       1.000000
+uI4K3J4                       1.000000
+uI4K1J5                       1.000000
+uI4K2J5                       1.000000
+uI4K3J5                       1.000000
+uI4K1J6                       1.000000
+uI4K2J6                       1.000000
+uI4K3J6                       1.000000
+uI4K1J7                       1.000000
+uI4K2J7                       1.000000
+uI4K3J7                       1.000000
+uI5K1J1                       1.000000
+uI5K2J1                       1.000000
+uI5K3J1                       1.000000
+uI5K1J2                       1.000000
+uI5K2J2                       1.000000
+uI5K3J2                       1.000000
+uI5K1J3                       1.000000
+uI5K2J3                       1.000000
+uI5K3J3                       1.000000
+uI5K1J4                       1.000000
+uI5K2J4                       1.000000
+uI5K3J4                       1.000000
+uI5K1J5                       1.000000
+uI5K2J5                       1.000000
+uI5K3J5                       1.000000
+uI5K1J6                       1.000000
+uI5K2J6                       1.000000
+uI5K3J6                       1.000000
+uI5K1J7                       1.000000
+uI5K2J7                       1.000000
+uI5K3J7                       1.000000
+uI6K1J1                       1.000000
+uI6K2J1                       1.000000
+uI6K3J1                       1.000000
+uI6K1J2                       1.000000
+uI6K2J2                       1.000000
+uI6K3J2                       1.000000
+uI6K1J3                       1.000000
+uI6K2J3                       1.000000
+uI6K3J3                       1.000000
+uI6K1J4                       1.000000
+uI6K2J4                       1.000000
+uI6K3J4                       1.000000
+uI6K1J5                       1.000000
+uI6K2J5                       1.000000
+uI6K3J5                       1.000000
+uI6K1J6                       1.000000
+uI6K2J6                       1.000000
+uI6K3J6                       1.000000
+uI6K1J7                       1.000000
+uI6K2J7                       1.000000
+uI6K3J7                       1.000000
+uI7K1J1                       1.000000
+uI7K2J1                       1.000000
+uI7K3J1                       1.000000
+uI7K1J2                       1.000000
+uI7K2J2                       1.000000
+uI7K3J2                       1.000000
+uI7K1J3                       1.000000
+uI7K2J3                       1.000000
+uI7K3J3                       1.000000
+uI7K1J4                       1.000000
+uI7K2J4                       1.000000
+uI7K3J4                       1.000000
+uI7K1J5                       1.000000
+uI7K2J5                       1.000000
+uI7K3J5                       1.000000
+uI7K1J6                       1.000000
+uI7K2J6                       1.000000
+uI7K3J6                       1.000000
+uI7K1J7                       1.000000
+uI7K2J7                       1.000000
+uI7K3J7                       1.000000
+lK1                         130.666667
+lK2                         130.666667
+lK3                         130.666667
+
+Log started (V12.8.0.0) Sun Jun  3 22:49:46 2018
+
+
+Problem 'Y=4.lp' read.
+Read time = 0.00 sec. (0.04 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 81 rows and 32 columns.
+MIP Presolve modified 47 coefficients.
+Aggregator did 224 substitutions.
+Reduced MIP has 53 rows, 197 columns, and 396 nonzeros.
+Reduced MIP has 196 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.85 ticks)
+Found incumbent of value 130.666667 after 0.00 sec. (0.97 ticks)
+Probing fixed 0 vars, tightened 4 bounds.
+Probing time = 0.00 sec. (0.26 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 53 rows, 197 columns, and 396 nonzeros.
+Reduced MIP has 196 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.38 ticks)
+Probing time = 0.00 sec. (0.07 ticks)
+Clique table members: 49.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.33 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          130.6667        4.6667            96.43%
+      0     0       98.0000     6      130.6667       98.0000       69   25.00%
+*     0+    0                           98.6667       98.0000             0.68%
+      0     0       98.0000     8       98.6667       Cuts: 4       79    0.68%
+      0     0       98.0000     8       98.6667       Cuts: 7       85    0.68%
+*     0+    0                           98.0000       98.0000             0.00%
+      0     0        cutoff             98.0000       98.0000       85    0.00%
+Elapsed time = 0.03 sec. (6.35 ticks, tree = 0.01 MB, solutions = 3)
+
+Cover cuts applied:  1
+Mixed integer rounding cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.03 sec. (6.38 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.03 sec. (6.38 ticks)
+
+Solution pool: 3 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  9.8000000000e+01
+Solution time =    0.03 sec.  Iterations = 85  Nodes = 0
+Deterministic time = 6.38 ticks  (215.16 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+r                            98.000000
+xI1K1J1                       0.666667
+xI1K2J1                       0.666667
+xI1K3J1                       0.666667
+xI1K1J2                       1.000000
+xI1K2J2                       1.000000
+xI1K3J2                       1.000000
+xI1K1J3                       1.333333
+xI1K2J3                       1.333333
+xI1K4J3                       1.333333
+xI1K1J4                       1.666667
+xI1K2J4                       1.666667
+xI1K4J4                       1.666667
+xI1K1J5                       2.000000
+xI1K2J5                       2.000000
+xI1K4J5                       2.000000
+xI1K1J6                       2.333333
+xI1K2J6                       2.333333
+xI1K4J6                       2.333333
+xI1K2J7                       2.666667
+xI1K3J7                       2.666667
+xI1K4J7                       2.666667
+xI2K1J1                       1.000000
+xI2K2J1                       1.000000
+xI2K3J1                       1.000000
+xI2K2J2                       1.333333
+xI2K3J2                       1.333333
+xI2K4J2                       1.333333
+xI2K1J3                       1.666667
+xI2K2J3                       1.666667
+xI2K3J3                       1.666667
+xI2K1J4                       2.000000
+xI2K2J4                       2.000000
+xI2K3J4                       2.000000
+xI2K1J5                       2.333333
+xI2K2J5                       2.333333
+xI2K3J5                       2.333333
+xI2K2J6                       2.666667
+xI2K3J6                       2.666667
+xI2K4J6                       2.666667
+xI2K1J7                       3.000000
+xI2K3J7                       3.000000
+xI2K4J7                       3.000000
+xI3K1J1                       1.333333
+xI3K2J1                       1.333333
+xI3K3J1                       1.333333
+xI3K1J2                       1.666667
+xI3K2J2                       1.666667
+xI3K3J2                       1.666667
+xI3K1J3                       2.000000
+xI3K2J3                       2.000000
+xI3K4J3                       2.000000
+xI3K1J4                       2.333333
+xI3K2J4                       2.333333
+xI3K4J4                       2.333333
+xI3K1J5                       2.666667
+xI3K3J5                       2.666667
+xI3K4J5                       2.666667
+xI3K1J6                       3.000000
+xI3K2J6                       3.000000
+xI3K4J6                       3.000000
+xI3K1J7                       3.333333
+xI3K2J7                       3.333333
+xI3K3J7                       3.333333
+xI4K2J1                       1.666667
+xI4K3J1                       1.666667
+xI4K4J1                       1.666667
+xI4K1J2                       2.000000
+xI4K2J2                       2.000000
+xI4K4J2                       2.000000
+xI4K1J3                       2.333333
+xI4K2J3                       2.333333
+xI4K4J3                       2.333333
+xI4K1J4                       2.666667
+xI4K3J4                       2.666667
+xI4K4J4                       2.666667
+xI4K2J5                       3.000000
+xI4K3J5                       3.000000
+xI4K4J5                       3.000000
+xI4K1J6                       3.333333
+xI4K2J6                       3.333333
+xI4K4J6                       3.333333
+xI4K2J7                       3.666667
+xI4K3J7                       3.666667
+xI4K4J7                       3.666667
+xI5K1J1                       2.000000
+xI5K3J1                       2.000000
+xI5K4J1                       2.000000
+xI5K1J2                       2.333333
+xI5K2J2                       2.333333
+xI5K3J2                       2.333333
+xI5K1J3                       2.666667
+xI5K2J3                       2.666667
+xI5K3J3                       2.666667
+xI5K1J4                       3.000000
+xI5K3J4                       3.000000
+xI5K4J4                       3.000000
+xI5K2J5                       3.333333
+xI5K3J5                       3.333333
+xI5K4J5                       3.333333
+xI5K2J6                       3.666667
+xI5K3J6                       3.666667
+xI5K4J6                       3.666667
+xI5K1J7                       4.000000
+xI5K2J7                       4.000000
+xI5K4J7                       4.000000
+xI6K1J1                       2.333333
+xI6K2J1                       2.333333
+xI6K4J1                       2.333333
+xI6K1J2                       2.666667
+xI6K2J2                       2.666667
+xI6K3J2                       2.666667
+xI6K1J3                       3.000000
+xI6K3J3                       3.000000
+xI6K4J3                       3.000000
+xI6K2J4                       3.333333
+xI6K3J4                       3.333333
+xI6K4J4                       3.333333
+xI6K1J5                       3.666667
+xI6K3J5                       3.666667
+xI6K4J5                       3.666667
+xI6K2J6                       4.000000
+xI6K3J6                       4.000000
+xI6K4J6                       4.000000
+xI6K1J7                       4.333333
+xI6K3J7                       4.333333
+xI6K4J7                       4.333333
+xI7K1J1                       2.666667
+xI7K2J1                       2.666667
+xI7K3J1                       2.666667
+xI7K1J2                       3.000000
+xI7K2J2                       3.000000
+xI7K3J2                       3.000000
+xI7K2J3                       3.333333
+xI7K3J3                       3.333333
+xI7K4J3                       3.333333
+xI7K1J4                       3.666667
+xI7K3J4                       3.666667
+xI7K4J4                       3.666667
+xI7K1J5                       4.000000
+xI7K2J5                       4.000000
+xI7K4J5                       4.000000
+xI7K1J6                       4.333333
+xI7K2J6                       4.333333
+xI7K3J6                       4.333333
+xI7K1J7                       4.666667
+xI7K3J7                       4.666667
+xI7K4J7                       4.666667
+cI1K1                         9.000000
+cI1K2                        11.666667
+cI1K3                         4.333333
+cI1K4                        10.000000
+cI2K1                        10.000000
+cI2K2                        11.000000
+cI2K3                        14.000000
+cI2K4                         7.000000
+cI3K1                        16.333333
+cI3K2                        13.666667
+cI3K3                         9.000000
+cI3K4                        10.000000
+cI4K1                        10.333333
+cI4K2                        16.000000
+cI4K3                        11.000000
+cI4K4                        18.666667
+cI5K1                        14.000000
+cI5K2                        16.000000
+cI5K3                        17.000000
+cI5K4                        16.000000
+cI6K1                        16.000000
+cI6K2                        12.333333
+cI6K3                        21.000000
+cI6K4                        20.666667
+cI7K1                        22.333333
+cI7K2                        17.333333
+cI7K3                        21.666667
+cI7K4                        15.666667
+dK1J1                        10.000000
+dK1J2                        12.666667
+dK1J3                        13.000000
+dK1J4                        15.333333
+dK1J5                        14.666667
+dK1J6                        13.000000
+dK1J7                        19.333333
+dK2J1                         9.666667
+dK2J2                        14.000000
+dK2J3                        13.333333
+dK2J4                         9.333333
+dK2J5                        14.666667
+dK2J6                        23.333333
+dK2J7                        13.666667
+dK3J1                         9.333333
+dK3J2                        12.000000
+dK3J3                        10.666667
+dK3J4                        14.666667
+dK3J5                        15.000000
+dK3J6                        14.666667
+dK3J7                        21.666667
+dK4J1                         6.000000
+dK4J2                         3.333333
+dK4J3                        12.000000
+dK4J4                        16.666667
+dK4J5                        18.666667
+dK4J6                        19.000000
+dK4J7                        22.333333
+uI1K1J1                       1.000000
+uI1K2J1                       1.000000
+uI1K3J1                       1.000000
+uI1K1J2                       1.000000
+uI1K2J2                       1.000000
+uI1K3J2                       1.000000
+uI1K1J3                       1.000000
+uI1K2J3                       1.000000
+uI1K4J3                       1.000000
+uI1K1J4                       1.000000
+uI1K2J4                       1.000000
+uI1K4J4                       1.000000
+uI1K1J5                       1.000000
+uI1K2J5                       1.000000
+uI1K4J5                       1.000000
+uI1K1J6                       1.000000
+uI1K2J6                       1.000000
+uI1K4J6                       1.000000
+uI1K2J7                       1.000000
+uI1K3J7                       1.000000
+uI1K4J7                       1.000000
+uI2K1J1                       1.000000
+uI2K2J1                       1.000000
+uI2K3J1                       1.000000
+uI2K2J2                       1.000000
+uI2K3J2                       1.000000
+uI2K4J2                       1.000000
+uI2K1J3                       1.000000
+uI2K2J3                       1.000000
+uI2K3J3                       1.000000
+uI2K1J4                       1.000000
+uI2K2J4                       1.000000
+uI2K3J4                       1.000000
+uI2K1J5                       1.000000
+uI2K2J5                       1.000000
+uI2K3J5                       1.000000
+uI2K2J6                       1.000000
+uI2K3J6                       1.000000
+uI2K4J6                       1.000000
+uI2K1J7                       1.000000
+uI2K3J7                       1.000000
+uI2K4J7                       1.000000
+uI3K1J1                       1.000000
+uI3K2J1                       1.000000
+uI3K3J1                       1.000000
+uI3K1J2                       1.000000
+uI3K2J2                       1.000000
+uI3K3J2                       1.000000
+uI3K1J3                       1.000000
+uI3K2J3                       1.000000
+uI3K4J3                       1.000000
+uI3K1J4                       1.000000
+uI3K2J4                       1.000000
+uI3K4J4                       1.000000
+uI3K1J5                       1.000000
+uI3K3J5                       1.000000
+uI3K4J5                       1.000000
+uI3K1J6                       1.000000
+uI3K2J6                       1.000000
+uI3K4J6                       1.000000
+uI3K1J7                       1.000000
+uI3K2J7                       1.000000
+uI3K3J7                       1.000000
+uI4K2J1                       1.000000
+uI4K3J1                       1.000000
+uI4K4J1                       1.000000
+uI4K1J2                       1.000000
+uI4K2J2                       1.000000
+uI4K4J2                       1.000000
+uI4K1J3                       1.000000
+uI4K2J3                       1.000000
+uI4K4J3                       1.000000
+uI4K1J4                       1.000000
+uI4K3J4                       1.000000
+uI4K4J4                       1.000000
+uI4K2J5                       1.000000
+uI4K3J5                       1.000000
+uI4K4J5                       1.000000
+uI4K1J6                       1.000000
+uI4K2J6                       1.000000
+uI4K4J6                       1.000000
+uI4K2J7                       1.000000
+uI4K3J7                       1.000000
+uI4K4J7                       1.000000
+uI5K1J1                       1.000000
+uI5K3J1                       1.000000
+uI5K4J1                       1.000000
+uI5K1J2                       1.000000
+uI5K2J2                       1.000000
+uI5K3J2                       1.000000
+uI5K1J3                       1.000000
+uI5K2J3                       1.000000
+uI5K3J3                       1.000000
+uI5K1J4                       1.000000
+uI5K3J4                       1.000000
+uI5K4J4                       1.000000
+uI5K2J5                       1.000000
+uI5K3J5                       1.000000
+uI5K4J5                       1.000000
+uI5K2J6                       1.000000
+uI5K3J6                       1.000000
+uI5K4J6                       1.000000
+uI5K1J7                       1.000000
+uI5K2J7                       1.000000
+uI5K4J7                       1.000000
+uI6K1J1                       1.000000
+uI6K2J1                       1.000000
+uI6K4J1                       1.000000
+uI6K1J2                       1.000000
+uI6K2J2                       1.000000
+uI6K3J2                       1.000000
+uI6K1J3                       1.000000
+uI6K3J3                       1.000000
+uI6K4J3                       1.000000
+uI6K2J4                       1.000000
+uI6K3J4                       1.000000
+uI6K4J4                       1.000000
+uI6K1J5                       1.000000
+uI6K3J5                       1.000000
+uI6K4J5                       1.000000
+uI6K2J6                       1.000000
+uI6K3J6                       1.000000
+uI6K4J6                       1.000000
+uI6K1J7                       1.000000
+uI6K3J7                       1.000000
+uI6K4J7                       1.000000
+uI7K1J1                       1.000000
+uI7K2J1                       1.000000
+uI7K3J1                       1.000000
+uI7K1J2                       1.000000
+uI7K2J2                       1.000000
+uI7K3J2                       1.000000
+uI7K2J3                       1.000000
+uI7K3J3                       1.000000
+uI7K4J3                       1.000000
+uI7K1J4                       1.000000
+uI7K3J4                       1.000000
+uI7K4J4                       1.000000
+uI7K1J5                       1.000000
+uI7K2J5                       1.000000
+uI7K4J5                       1.000000
+uI7K1J6                       1.000000
+uI7K2J6                       1.000000
+uI7K3J6                       1.000000
+uI7K1J7                       1.000000
+uI7K3J7                       1.000000
+uI7K4J7                       1.000000
+lK1                          98.000000
+lK2                          98.000000
+lK3                          98.000000
+lK4                          98.000000
+All other variables in the range 1-453 are 0.
+
+Log started (V12.8.0.0) Sun Jun  3 22:49:49 2018
+
+
+Problem 'Y=5.lp' read.
+Read time = 0.00 sec. (0.05 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 89 rows and 40 columns.
+MIP Presolve modified 47 coefficients.
+Aggregator did 280 substitutions.
+Reduced MIP has 54 rows, 246 columns, and 495 nonzeros.
+Reduced MIP has 245 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.89 ticks)
+Found incumbent of value 130.666667 after 0.00 sec. (1.05 ticks)
+Probing time = 0.00 sec. (0.13 ticks)
+Cover probing fixed 0 vars, tightened 6 bounds.
+Tried aggregator 1 time.
+Reduced MIP has 54 rows, 246 columns, and 495 nonzeros.
+Reduced MIP has 245 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.39 ticks)
+Probing time = 0.00 sec. (0.04 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.43 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          130.6667        4.6667            96.43%
+      0     0       78.4000     8      130.6667       78.4000       76   40.00%
+*     0+    0                           80.3333       78.4000             2.41%
+      0     0       78.4000    14       80.3333       Cuts: 9       82    2.41%
+*     0+    0                           79.6667       78.4000             1.59%
+      0     0       78.4000    14       79.6667       Cuts: 8       88    1.59%
+*     0+    0                           79.3333       78.4000             1.18%
+*     0+    0                           79.0000       78.4000             0.76%
+*     0+    0                           78.6667       78.4000             0.34%
+      0     0        cutoff             78.6667       78.6667       88    0.00%
+Elapsed time = 0.04 sec. (15.18 ticks, tree = 0.01 MB, solutions = 6)
+
+Mixed integer rounding cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.04 sec. (15.22 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.04 sec. (15.22 ticks)
+
+Solution pool: 6 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  7.8666666667e+01
+Solution time =    0.04 sec.  Iterations = 88  Nodes = 0
+Deterministic time = 15.22 ticks  (407.68 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+r                            78.666667
+xI1K1J1                       0.666667
+xI1K2J1                       0.666667
+xI1K3J1                       0.666667
+xI1K1J2                       1.000000
+xI1K2J2                       1.000000
+xI1K3J2                       1.000000
+xI1K1J3                       1.333333
+xI1K2J3                       1.333333
+xI1K5J3                       1.333333
+xI1K1J4                       1.666667
+xI1K2J4                       1.666667
+xI1K3J4                       1.666667
+xI1K1J5                       2.000000
+xI1K3J5                       2.000000
+xI1K5J5                       2.000000
+xI1K1J6                       2.333333
+xI1K2J6                       2.333333
+xI1K4J6                       2.333333
+xI1K2J7                       2.666667
+xI1K4J7                       2.666667
+xI1K5J7                       2.666667
+xI2K1J1                       1.000000
+xI2K2J1                       1.000000
+xI2K3J1                       1.000000
+xI2K1J2                       1.333333
+xI2K2J2                       1.333333
+xI2K4J2                       1.333333
+xI2K1J3                       1.666667
+xI2K2J3                       1.666667
+xI2K4J3                       1.666667
+xI2K1J4                       2.000000
+xI2K2J4                       2.000000
+xI2K3J4                       2.000000
+xI2K1J5                       2.333333
+xI2K2J5                       2.333333
+xI2K4J5                       2.333333
+xI2K1J6                       2.666667
+xI2K3J6                       2.666667
+xI2K4J6                       2.666667
+xI2K1J7                       3.000000
+xI2K2J7                       3.000000
+xI2K5J7                       3.000000
+xI3K1J1                       1.333333
+xI3K2J1                       1.333333
+xI3K4J1                       1.333333
+xI3K1J2                       1.666667
+xI3K2J2                       1.666667
+xI3K3J2                       1.666667
+xI3K1J3                       2.000000
+xI3K2J3                       2.000000
+xI3K3J3                       2.000000
+xI3K1J4                       2.333333
+xI3K2J4                       2.333333
+xI3K4J4                       2.333333
+xI3K2J5                       2.666667
+xI3K3J5                       2.666667
+xI3K4J5                       2.666667
+xI3K1J6                       3.000000
+xI3K2J6                       3.000000
+xI3K5J6                       3.000000
+xI3K1J7                       3.333333
+xI3K2J7                       3.333333
+xI3K4J7                       3.333333
+xI4K1J1                       1.666667
+xI4K2J1                       1.666667
+xI4K3J1                       1.666667
+xI4K1J2                       2.000000
+xI4K2J2                       2.000000
+xI4K5J2                       2.000000
+xI4K1J3                       2.333333
+xI4K2J3                       2.333333
+xI4K3J3                       2.333333
+xI4K1J4                       2.666667
+xI4K3J4                       2.666667
+xI4K5J4                       2.666667
+xI4K1J5                       3.000000
+xI4K4J5                       3.000000
+xI4K5J5                       3.000000
+xI4K1J6                       3.333333
+xI4K4J6                       3.333333
+xI4K5J6                       3.333333
+xI4K1J7                       3.666667
+xI4K3J7                       3.666667
+xI4K4J7                       3.666667
+xI5K1J1                       2.000000
+xI5K2J1                       2.000000
+xI5K5J1                       2.000000
+xI5K1J2                       2.333333
+xI5K2J2                       2.333333
+xI5K3J2                       2.333333
+xI5K2J3                       2.666667
+xI5K3J3                       2.666667
+xI5K5J3                       2.666667
+xI5K3J4                       3.000000
+xI5K4J4                       3.000000
+xI5K5J4                       3.000000
+xI5K2J5                       3.333333
+xI5K3J5                       3.333333
+xI5K4J5                       3.333333
+xI5K3J6                       3.666667
+xI5K4J6                       3.666667
+xI5K5J6                       3.666667
+xI5K1J7                       4.000000
+xI5K2J7                       4.000000
+xI5K3J7                       4.000000
+xI6K1J1                       2.333333
+xI6K2J1                       2.333333
+xI6K5J1                       2.333333
+xI6K1J2                       2.666667
+xI6K2J2                       2.666667
+xI6K3J2                       2.666667
+xI6K1J3                       3.000000
+xI6K4J3                       3.000000
+xI6K5J3                       3.000000
+xI6K3J4                       3.333333
+xI6K4J4                       3.333333
+xI6K5J4                       3.333333
+xI6K3J5                       3.666667
+xI6K4J5                       3.666667
+xI6K5J5                       3.666667
+xI6K3J6                       4.000000
+xI6K4J6                       4.000000
+xI6K5J6                       4.000000
+xI6K2J7                       4.333333
+xI6K4J7                       4.333333
+xI6K5J7                       4.333333
+xI7K1J1                       2.666667
+xI7K2J1                       2.666667
+xI7K4J1                       2.666667
+xI7K3J2                       3.000000
+xI7K4J2                       3.000000
+xI7K5J2                       3.000000
+xI7K3J3                       3.333333
+xI7K4J3                       3.333333
+xI7K5J3                       3.333333
+xI7K3J4                       3.666667
+xI7K4J4                       3.666667
+xI7K5J4                       3.666667
+xI7K1J5                       4.000000
+xI7K3J5                       4.000000
+xI7K5J5                       4.000000
+xI7K2J6                       4.333333
+xI7K3J6                       4.333333
+xI7K5J6                       4.333333
+xI7K2J7                       4.666667
+xI7K4J7                       4.666667
+xI7K5J7                       4.666667
+cI1K1                         9.000000
+cI1K2                         9.666667
+cI1K3                         5.333333
+cI1K4                         5.000000
+cI1K5                         6.000000
+cI2K1                        14.000000
+cI2K2                        11.333333
+cI2K3                         5.666667
+cI2K4                         8.000000
+cI2K5                         3.000000
+cI3K1                        13.666667
+cI3K2                        16.333333
+cI3K3                         6.333333
+cI3K4                         9.666667
+cI3K5                         3.000000
+cI4K1                        18.666667
+cI4K2                         6.000000
+cI4K3                        10.333333
+cI4K4                        10.000000
+cI4K5                        11.000000
+cI5K1                         8.333333
+cI5K2                        14.333333
+cI5K3                        19.000000
+cI5K4                        10.000000
+cI5K5                        11.333333
+cI6K1                         8.000000
+cI6K2                         9.333333
+cI6K3                        13.666667
+cI6K4                        18.333333
+cI6K5                        20.666667
+cI7K1                         6.666667
+cI7K2                        11.666667
+cI7K3                        18.333333
+cI7K4                        17.333333
+cI7K5                        23.000000
+dK1J1                        11.666667
+dK1J2                        11.000000
+dK1J3                        10.333333
+dK1J4                         8.666667
+dK1J5                        11.333333
+dK1J6                        11.333333
+dK1J7                        14.000000
+dK2J1                        11.666667
+dK2J2                        11.000000
+dK2J3                        10.000000
+dK2J4                         6.000000
+dK2J5                         8.333333
+dK2J6                         9.666667
+dK2J7                        22.000000
+dK3J1                         3.333333
+dK3J2                        10.666667
+dK3J3                        10.333333
+dK3J4                        16.333333
+dK3J5                        15.666667
+dK3J6                        14.666667
+dK3J7                         7.666667
+dK4J1                         4.000000
+dK4J2                         4.333333
+dK4J3                         8.000000
+dK4J4                        12.333333
+dK4J5                        15.000000
+dK4J6                        16.000000
+dK4J7                        18.666667
+dK5J1                         4.333333
+dK5J2                         5.000000
+dK5J3                        10.333333
+dK5J4                        12.666667
+dK5J5                        12.666667
+dK5J6                        18.333333
+dK5J7                        14.666667
+uI1K1J1                       1.000000
+uI1K2J1                       1.000000
+uI1K3J1                       1.000000
+uI1K1J2                       1.000000
+uI1K2J2                       1.000000
+uI1K3J2                       1.000000
+uI1K1J3                       1.000000
+uI1K2J3                       1.000000
+uI1K5J3                       1.000000
+uI1K1J4                       1.000000
+uI1K2J4                       1.000000
+uI1K3J4                       1.000000
+uI1K1J5                       1.000000
+uI1K3J5                       1.000000
+uI1K5J5                       1.000000
+uI1K1J6                       1.000000
+uI1K2J6                       1.000000
+uI1K4J6                       1.000000
+uI1K2J7                       1.000000
+uI1K4J7                       1.000000
+uI1K5J7                       1.000000
+uI2K1J1                       1.000000
+uI2K2J1                       1.000000
+uI2K3J1                       1.000000
+uI2K1J2                       1.000000
+uI2K2J2                       1.000000
+uI2K4J2                       1.000000
+uI2K1J3                       1.000000
+uI2K2J3                       1.000000
+uI2K4J3                       1.000000
+uI2K1J4                       1.000000
+uI2K2J4                       1.000000
+uI2K3J4                       1.000000
+uI2K1J5                       1.000000
+uI2K2J5                       1.000000
+uI2K4J5                       1.000000
+uI2K1J6                       1.000000
+uI2K3J6                       1.000000
+uI2K4J6                       1.000000
+uI2K1J7                       1.000000
+uI2K2J7                       1.000000
+uI2K5J7                       1.000000
+uI3K1J1                       1.000000
+uI3K2J1                       1.000000
+uI3K4J1                       1.000000
+uI3K1J2                       1.000000
+uI3K2J2                       1.000000
+uI3K3J2                       1.000000
+uI3K1J3                       1.000000
+uI3K2J3                       1.000000
+uI3K3J3                       1.000000
+uI3K1J4                       1.000000
+uI3K2J4                       1.000000
+uI3K4J4                       1.000000
+uI3K2J5                       1.000000
+uI3K3J5                       1.000000
+uI3K4J5                       1.000000
+uI3K1J6                       1.000000
+uI3K2J6                       1.000000
+uI3K5J6                       1.000000
+uI3K1J7                       1.000000
+uI3K2J7                       1.000000
+uI3K4J7                       1.000000
+uI4K1J1                       1.000000
+uI4K2J1                       1.000000
+uI4K3J1                       1.000000
+uI4K1J2                       1.000000
+uI4K2J2                       1.000000
+uI4K5J2                       1.000000
+uI4K1J3                       1.000000
+uI4K2J3                       1.000000
+uI4K3J3                       1.000000
+uI4K1J4                       1.000000
+uI4K3J4                       1.000000
+uI4K5J4                       1.000000
+uI4K1J5                       1.000000
+uI4K4J5                       1.000000
+uI4K5J5                       1.000000
+uI4K1J6                       1.000000
+uI4K4J6                       1.000000
+uI4K5J6                       1.000000
+uI4K1J7                       1.000000
+uI4K3J7                       1.000000
+uI4K4J7                       1.000000
+uI5K1J1                       1.000000
+uI5K2J1                       1.000000
+uI5K5J1                       1.000000
+uI5K1J2                       1.000000
+uI5K2J2                       1.000000
+uI5K3J2                       1.000000
+uI5K2J3                       1.000000
+uI5K3J3                       1.000000
+uI5K5J3                       1.000000
+uI5K3J4                       1.000000
+uI5K4J4                       1.000000
+uI5K5J4                       1.000000
+uI5K2J5                       1.000000
+uI5K3J5                       1.000000
+uI5K4J5                       1.000000
+uI5K3J6                       1.000000
+uI5K4J6                       1.000000
+uI5K5J6                       1.000000
+uI5K1J7                       1.000000
+uI5K2J7                       1.000000
+uI5K3J7                       1.000000
+uI6K1J1                       1.000000
+uI6K2J1                       1.000000
+uI6K5J1                       1.000000
+uI6K1J2                       1.000000
+uI6K2J2                       1.000000
+uI6K3J2                       1.000000
+uI6K1J3                       1.000000
+uI6K4J3                       1.000000
+uI6K5J3                       1.000000
+uI6K3J4                       1.000000
+uI6K4J4                       1.000000
+uI6K5J4                       1.000000
+uI6K3J5                       1.000000
+uI6K4J5                       1.000000
+uI6K5J5                       1.000000
+uI6K3J6                       1.000000
+uI6K4J6                       1.000000
+uI6K5J6                       1.000000
+uI6K2J7                       1.000000
+uI6K4J7                       1.000000
+uI6K5J7                       1.000000
+uI7K1J1                       1.000000
+uI7K2J1                       1.000000
+uI7K4J1                       1.000000
+uI7K3J2                       1.000000
+uI7K4J2                       1.000000
+uI7K5J2                       1.000000
+uI7K3J3                       1.000000
+uI7K4J3                       1.000000
+uI7K5J3                       1.000000
+uI7K3J4                       1.000000
+uI7K4J4                       1.000000
+uI7K5J4                       1.000000
+uI7K1J5                       1.000000
+uI7K3J5                       1.000000
+uI7K5J5                       1.000000
+uI7K2J6                       1.000000
+uI7K3J6                       1.000000
+uI7K5J6                       1.000000
+uI7K2J7                       1.000000
+uI7K4J7                       1.000000
+uI7K5J7                       1.000000
+lK1                          78.333333
+lK2                          78.666667
+lK3                          78.666667
+lK4                          78.333333
+lK5                          78.000000
+All other variables in the range 1-566 are 0.
+
+Log started (V12.8.0.0) Sun Jun  3 22:49:53 2018
+
+
+Problem 'Y=6.lp' read.
+Read time = 0.00 sec. (0.06 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 97 rows and 48 columns.
+MIP Presolve modified 47 coefficients.
+Aggregator did 336 substitutions.
+Reduced MIP has 55 rows, 295 columns, and 594 nonzeros.
+Reduced MIP has 294 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.07 ticks)
+Found incumbent of value 130.666667 after 0.00 sec. (1.25 ticks)
+Probing time = 0.00 sec. (0.16 ticks)
+Cover probing fixed 0 vars, tightened 6 bounds.
+Tried aggregator 1 time.
+Reduced MIP has 55 rows, 295 columns, and 594 nonzeros.
+Reduced MIP has 294 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.48 ticks)
+Probing time = 0.00 sec. (0.05 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.50 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          130.6667        4.6667            96.43%
+      0     0       65.3333    10      130.6667       65.3333       86   50.00%
+*     0+    0                           68.3333       65.3333             4.39%
+      0     0       65.3333    18       68.3333      Cuts: 10       94    4.39%
+*     0+    0                           67.3333       65.3333             2.97%
+      0     0       65.3333    11       67.3333   LiftProj: 1       96    2.97%
+*     0+    0                           66.3333       65.3333             1.51%
+      0     0       65.3333    17       66.3333       Cuts: 4      105    1.51%
+*     0+    0                           66.0000       65.3333             1.01%
+*     0+    0                           65.6667       65.3333             0.51%
+*     0+    0                           65.3333       65.3333             0.00%
+      0     0        cutoff             65.3333       65.3333      105    0.00%
+Elapsed time = 0.06 sec. (24.61 ticks, tree = 0.01 MB, solutions = 7)
+
+Mixed integer rounding cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.06 sec. (24.67 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.06 sec. (24.67 ticks)
+
+Solution pool: 7 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  6.5333333333e+01
+Solution time =    0.06 sec.  Iterations = 105  Nodes = 0
+Deterministic time = 24.67 ticks  (386.67 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+r                            65.333333
+xI1K2J1                       0.666667
+xI1K4J1                       0.666667
+xI1K6J1                       0.666667
+xI1K1J2                       1.000000
+xI1K2J2                       1.000000
+xI1K5J2                       1.000000
+xI1K1J3                       1.333333
+xI1K2J3                       1.333333
+xI1K5J3                       1.333333
+xI1K1J4                       1.666667
+xI1K2J4                       1.666667
+xI1K6J4                       1.666667
+xI1K1J5                       2.000000
+xI1K2J5                       2.000000
+xI1K4J5                       2.000000
+xI1K1J6                       2.333333
+xI1K2J6                       2.333333
+xI1K4J6                       2.333333
+xI1K3J7                       2.666667
+xI1K5J7                       2.666667
+xI1K6J7                       2.666667
+xI2K1J1                       1.000000
+xI2K2J1                       1.000000
+xI2K4J1                       1.000000
+xI2K2J2                       1.333333
+xI2K3J2                       1.333333
+xI2K5J2                       1.333333
+xI2K1J3                       1.666667
+xI2K3J3                       1.666667
+xI2K6J3                       1.666667
+xI2K1J4                       2.000000
+xI2K2J4                       2.000000
+xI2K6J4                       2.000000
+xI2K1J5                       2.333333
+xI2K2J5                       2.333333
+xI2K4J5                       2.333333
+xI2K1J6                       2.666667
+xI2K3J6                       2.666667
+xI2K5J6                       2.666667
+xI2K3J7                       3.000000
+xI2K5J7                       3.000000
+xI2K6J7                       3.000000
+xI3K1J1                       1.333333
+xI3K2J1                       1.333333
+xI3K5J1                       1.333333
+xI3K1J2                       1.666667
+xI3K2J2                       1.666667
+xI3K3J2                       1.666667
+xI3K1J3                       2.000000
+xI3K2J3                       2.000000
+xI3K5J3                       2.000000
+xI3K1J4                       2.333333
+xI3K2J4                       2.333333
+xI3K4J4                       2.333333
+xI3K2J5                       2.666667
+xI3K3J5                       2.666667
+xI3K4J5                       2.666667
+xI3K1J6                       3.000000
+xI3K5J6                       3.000000
+xI3K6J6                       3.000000
+xI3K3J7                       3.333333
+xI3K4J7                       3.333333
+xI3K5J7                       3.333333
+xI4K1J1                       1.666667
+xI4K2J1                       1.666667
+xI4K4J1                       1.666667
+xI4K1J2                       2.000000
+xI4K2J2                       2.000000
+xI4K6J2                       2.000000
+xI4K1J3                       2.333333
+xI4K2J3                       2.333333
+xI4K3J3                       2.333333
+xI4K1J4                       2.666667
+xI4K3J4                       2.666667
+xI4K4J4                       2.666667
+xI4K3J5                       3.000000
+xI4K5J5                       3.000000
+xI4K6J5                       3.000000
+xI4K4J6                       3.333333
+xI4K5J6                       3.333333
+xI4K6J6                       3.333333
+xI4K2J7                       3.666667
+xI4K3J7                       3.666667
+xI4K5J7                       3.666667
+xI5K1J1                       2.000000
+xI5K2J1                       2.000000
+xI5K4J1                       2.000000
+xI5K1J2                       2.333333
+xI5K2J2                       2.333333
+xI5K4J2                       2.333333
+xI5K2J3                       2.666667
+xI5K3J3                       2.666667
+xI5K4J3                       2.666667
+xI5K3J4                       3.000000
+xI5K5J4                       3.000000
+xI5K6J4                       3.000000
+xI5K3J5                       3.333333
+xI5K5J5                       3.333333
+xI5K6J5                       3.333333
+xI5K3J6                       3.666667
+xI5K4J6                       3.666667
+xI5K5J6                       3.666667
+xI5K1J7                       4.000000
+xI5K3J7                       4.000000
+xI5K6J7                       4.000000
+xI6K1J1                       2.333333
+xI6K2J1                       2.333333
+xI6K6J1                       2.333333
+xI6K1J2                       2.666667
+xI6K2J2                       2.666667
+xI6K5J2                       2.666667
+xI6K3J3                       3.000000
+xI6K4J3                       3.000000
+xI6K6J3                       3.000000
+xI6K3J4                       3.333333
+xI6K5J4                       3.333333
+xI6K6J4                       3.333333
+xI6K3J5                       3.666667
+xI6K5J5                       3.666667
+xI6K6J5                       3.666667
+xI6K1J6                       4.000000
+xI6K3J6                       4.000000
+xI6K4J6                       4.000000
+xI6K1J7                       4.333333
+xI6K4J7                       4.333333
+xI6K6J7                       4.333333
+xI7K1J1                       2.666667
+xI7K2J1                       2.666667
+xI7K6J1                       2.666667
+xI7K2J2                       3.000000
+xI7K4J2                       3.000000
+xI7K5J2                       3.000000
+xI7K2J3                       3.333333
+xI7K4J3                       3.333333
+xI7K5J3                       3.333333
+xI7K4J4                       3.666667
+xI7K5J4                       3.666667
+xI7K6J4                       3.666667
+xI7K1J5                       4.000000
+xI7K3J5                       4.000000
+xI7K5J5                       4.000000
+xI7K2J6                       4.333333
+xI7K4J6                       4.333333
+xI7K6J6                       4.333333
+xI7K2J7                       4.666667
+xI7K4J7                       4.666667
+xI7K6J7                       4.666667
+cI1K1                         8.333333
+cI1K2                         9.000000
+cI1K3                         2.666667
+cI1K4                         5.000000
+cI1K5                         5.000000
+cI1K6                         5.000000
+cI2K1                         9.666667
+cI2K2                         6.666667
+cI2K3                         8.666667
+cI2K4                         3.333333
+cI2K5                         7.000000
+cI2K6                         6.666667
+cI3K1                        10.333333
+cI3K2                        10.000000
+cI3K3                         7.666667
+cI3K4                         8.333333
+cI3K5                         9.666667
+cI3K6                         3.000000
+cI4K1                         8.666667
+cI4K2                         9.666667
+cI4K3                        11.666667
+cI4K4                         7.666667
+cI4K5                        10.000000
+cI4K6                         8.333333
+cI5K1                         8.333333
+cI5K2                         7.000000
+cI5K3                        16.666667
+cI5K4                        10.666667
+cI5K5                        10.000000
+cI5K6                        10.333333
+cI6K1                        13.333333
+cI6K2                         5.000000
+cI6K3                        14.000000
+cI6K4                        11.333333
+cI6K5                         9.666667
+cI6K6                        16.666667
+cI7K1                         6.666667
+cI7K2                        18.000000
+cI7K3                         4.000000
+cI7K4                        19.000000
+cI7K5                        14.000000
+cI7K6                        15.333333
+dK1J1                        11.000000
+dK1J2                         9.666667
+dK1J3                         7.333333
+dK1J4                         8.666667
+dK1J5                         8.333333
+dK1J6                        12.000000
+dK1J7                         8.333333
+dK2J1                        11.666667
+dK2J2                        14.000000
+dK2J3                        11.666667
+dK2J4                         6.000000
+dK2J5                         7.000000
+dK2J6                         6.666667
+dK2J7                         8.333333
+dK3J2                         3.000000
+dK3J3                         9.666667
+dK3J4                         9.000000
+dK3J5                        16.666667
+dK3J6                        10.333333
+dK3J7                        16.666667
+dK4J1                         5.333333
+dK4J2                         5.333333
+dK4J3                         9.000000
+dK4J4                         8.666667
+dK4J5                         7.000000
+dK4J6                        17.666667
+dK4J7                        12.333333
+dK5J1                         1.333333
+dK5J2                         8.000000
+dK5J3                         6.666667
+dK5J4                        10.000000
+dK5J5                        14.000000
+dK5J6                        12.666667
+dK5J7                        12.666667
+dK6J1                         5.666667
+dK6J2                         2.000000
+dK6J3                         4.666667
+dK6J4                        13.666667
+dK6J5                        10.000000
+dK6J6                        10.666667
+dK6J7                        18.666667
+uI1K2J1                       1.000000
+uI1K4J1                       1.000000
+uI1K6J1                       1.000000
+uI1K1J2                       1.000000
+uI1K2J2                       1.000000
+uI1K5J2                       1.000000
+uI1K1J3                       1.000000
+uI1K2J3                       1.000000
+uI1K5J3                       1.000000
+uI1K1J4                       1.000000
+uI1K2J4                       1.000000
+uI1K6J4                       1.000000
+uI1K1J5                       1.000000
+uI1K2J5                       1.000000
+uI1K4J5                       1.000000
+uI1K1J6                       1.000000
+uI1K2J6                       1.000000
+uI1K4J6                       1.000000
+uI1K3J7                       1.000000
+uI1K5J7                       1.000000
+uI1K6J7                       1.000000
+uI2K1J1                       1.000000
+uI2K2J1                       1.000000
+uI2K4J1                       1.000000
+uI2K2J2                       1.000000
+uI2K3J2                       1.000000
+uI2K5J2                       1.000000
+uI2K1J3                       1.000000
+uI2K3J3                       1.000000
+uI2K6J3                       1.000000
+uI2K1J4                       1.000000
+uI2K2J4                       1.000000
+uI2K6J4                       1.000000
+uI2K1J5                       1.000000
+uI2K2J5                       1.000000
+uI2K4J5                       1.000000
+uI2K1J6                       1.000000
+uI2K3J6                       1.000000
+uI2K5J6                       1.000000
+uI2K3J7                       1.000000
+uI2K5J7                       1.000000
+uI2K6J7                       1.000000
+uI3K1J1                       1.000000
+uI3K2J1                       1.000000
+uI3K5J1                       1.000000
+uI3K1J2                       1.000000
+uI3K2J2                       1.000000
+uI3K3J2                       1.000000
+uI3K1J3                       1.000000
+uI3K2J3                       1.000000
+uI3K5J3                       1.000000
+uI3K1J4                       1.000000
+uI3K2J4                       1.000000
+uI3K4J4                       1.000000
+uI3K2J5                       1.000000
+uI3K3J5                       1.000000
+uI3K4J5                       1.000000
+uI3K1J6                       1.000000
+uI3K5J6                       1.000000
+uI3K6J6                       1.000000
+uI3K3J7                       1.000000
+uI3K4J7                       1.000000
+uI3K5J7                       1.000000
+uI4K1J1                       1.000000
+uI4K2J1                       1.000000
+uI4K4J1                       1.000000
+uI4K1J2                       1.000000
+uI4K2J2                       1.000000
+uI4K6J2                       1.000000
+uI4K1J3                       1.000000
+uI4K2J3                       1.000000
+uI4K3J3                       1.000000
+uI4K1J4                       1.000000
+uI4K3J4                       1.000000
+uI4K4J4                       1.000000
+uI4K3J5                       1.000000
+uI4K5J5                       1.000000
+uI4K6J5                       1.000000
+uI4K4J6                       1.000000
+uI4K5J6                       1.000000
+uI4K6J6                       1.000000
+uI4K2J7                       1.000000
+uI4K3J7                       1.000000
+uI4K5J7                       1.000000
+uI5K1J1                       1.000000
+uI5K2J1                       1.000000
+uI5K4J1                       1.000000
+uI5K1J2                       1.000000
+uI5K2J2                       1.000000
+uI5K4J2                       1.000000
+uI5K2J3                       1.000000
+uI5K3J3                       1.000000
+uI5K4J3                       1.000000
+uI5K3J4                       1.000000
+uI5K5J4                       1.000000
+uI5K6J4                       1.000000
+uI5K3J5                       1.000000
+uI5K5J5                       1.000000
+uI5K6J5                       1.000000
+uI5K3J6                       1.000000
+uI5K4J6                       1.000000
+uI5K5J6                       1.000000
+uI5K1J7                       1.000000
+uI5K3J7                       1.000000
+uI5K6J7                       1.000000
+uI6K1J1                       1.000000
+uI6K2J1                       1.000000
+uI6K6J1                       1.000000
+uI6K1J2                       1.000000
+uI6K2J2                       1.000000
+uI6K5J2                       1.000000
+uI6K3J3                       1.000000
+uI6K4J3                       1.000000
+uI6K6J3                       1.000000
+uI6K3J4                       1.000000
+uI6K5J4                       1.000000
+uI6K6J4                       1.000000
+uI6K3J5                       1.000000
+uI6K5J5                       1.000000
+uI6K6J5                       1.000000
+uI6K1J6                       1.000000
+uI6K3J6                       1.000000
+uI6K4J6                       1.000000
+uI6K1J7                       1.000000
+uI6K4J7                       1.000000
+uI6K6J7                       1.000000
+uI7K1J1                       1.000000
+uI7K2J1                       1.000000
+uI7K6J1                       1.000000
+uI7K2J2                       1.000000
+uI7K4J2                       1.000000
+uI7K5J2                       1.000000
+uI7K2J3                       1.000000
+uI7K4J3                       1.000000
+uI7K5J3                       1.000000
+uI7K4J4                       1.000000
+uI7K5J4                       1.000000
+uI7K6J4                       1.000000
+uI7K1J5                       1.000000
+uI7K3J5                       1.000000
+uI7K5J5                       1.000000
+uI7K2J6                       1.000000
+uI7K4J6                       1.000000
+uI7K6J6                       1.000000
+uI7K2J7                       1.000000
+uI7K4J7                       1.000000
+uI7K6J7                       1.000000
+lK1                          65.333333
+lK2                          65.333333
+lK3                          65.333333
+lK4                          65.333333
+lK5                          65.333333
+lK6                          65.333333
+All other variables in the range 1-679 are 0.
+
+Log started (V12.8.0.0) Sun Jun  3 22:49:56 2018
+
+
+Problem 'Y=7.lp' read.
+Read time = 0.00 sec. (0.07 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 105 rows and 56 columns.
+MIP Presolve modified 47 coefficients.
+Aggregator did 392 substitutions.
+Reduced MIP has 56 rows, 344 columns, and 693 nonzeros.
+Reduced MIP has 343 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.24 ticks)
+Found incumbent of value 130.666667 after 0.00 sec. (1.45 ticks)
+Probing time = 0.00 sec. (0.20 ticks)
+Cover probing fixed 0 vars, tightened 6 bounds.
+Tried aggregator 1 time.
+Reduced MIP has 56 rows, 344 columns, and 693 nonzeros.
+Reduced MIP has 343 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.56 ticks)
+Probing time = 0.00 sec. (0.05 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.58 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          130.6667        4.6667            96.43%
+      0     0       56.0000    10      130.6667       56.0000       92   57.14%
+*     0+    0                           58.0000       56.0000             3.45%
+      0     0       56.0000    14       58.0000      Cuts: 14      101    3.45%
+*     0+    0                           57.6667       56.0000             2.89%
+      0     0       56.0000    15       57.6667       Cuts: 7      112    2.89%
+*     0+    0                           57.3333       56.0000             2.33%
+*     0+    0                           57.0000       56.0000             1.75%
+*     0+    0                           56.3333       56.0000             0.59%
+*     0+    0                           56.0000       56.0000             0.00%
+      0     0        cutoff             56.0000       56.0000      112    0.00%
+Elapsed time = 0.07 sec. (21.25 ticks, tree = 0.01 MB, solutions = 7)
+
+Root node processing (before b&c):
+  Real time             =    0.07 sec. (21.32 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.07 sec. (21.32 ticks)
+
+Solution pool: 7 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  5.6000000000e+01
+Solution time =    0.07 sec.  Iterations = 112  Nodes = 0
+Deterministic time = 21.32 ticks  (306.31 ticks/sec)
+
+
+Incumbent solution
+Variable Name           Solution Value
+r                            56.000000
+xI1K1J1                       0.666667
+xI1K2J1                       0.666667
+xI1K6J1                       0.666667
+xI1K1J2                       1.000000
+xI1K2J2                       1.000000
+xI1K7J2                       1.000000
+xI1K1J3                       1.333333
+xI1K2J3                       1.333333
+xI1K6J3                       1.333333
+xI1K1J4                       1.666667
+xI1K2J4                       1.666667
+xI1K4J4                       1.666667
+xI1K1J5                       2.000000
+xI1K2J5                       2.000000
+xI1K5J5                       2.000000
+xI1K1J6                       2.333333
+xI1K2J6                       2.333333
+xI1K6J6                       2.333333
+xI1K3J7                       2.666667
+xI1K4J7                       2.666667
+xI1K7J7                       2.666667
+xI2K1J1                       1.000000
+xI2K2J1                       1.000000
+xI2K3J1                       1.000000
+xI2K1J2                       1.333333
+xI2K2J2                       1.333333
+xI2K4J2                       1.333333
+xI2K1J3                       1.666667
+xI2K2J3                       1.666667
+xI2K5J3                       1.666667
+xI2K1J4                       2.000000
+xI2K2J4                       2.000000
+xI2K3J4                       2.000000
+xI2K1J5                       2.333333
+xI2K2J5                       2.333333
+xI2K4J5                       2.333333
+xI2K2J6                       2.666667
+xI2K6J6                       2.666667
+xI2K7J6                       2.666667
+xI2K3J7                       3.000000
+xI2K6J7                       3.000000
+xI2K7J7                       3.000000
+xI3K1J1                       1.333333
+xI3K2J1                       1.333333
+xI3K3J1                       1.333333
+xI3K1J2                       1.666667
+xI3K2J2                       1.666667
+xI3K7J2                       1.666667
+xI3K1J3                       2.000000
+xI3K2J3                       2.000000
+xI3K6J3                       2.000000
+xI3K1J4                       2.333333
+xI3K2J4                       2.333333
+xI3K5J4                       2.333333
+xI3K2J5                       2.666667
+xI3K3J5                       2.666667
+xI3K7J5                       2.666667
+xI3K1J6                       3.000000
+xI3K3J6                       3.000000
+xI3K5J6                       3.000000
+xI3K3J7                       3.333333
+xI3K4J7                       3.333333
+xI3K7J7                       3.333333
+xI4K1J1                       1.666667
+xI4K2J1                       1.666667
+xI4K7J1                       1.666667
+xI4K1J2                       2.000000
+xI4K2J2                       2.000000
+xI4K5J2                       2.000000
+xI4K1J3                       2.333333
+xI4K2J3                       2.333333
+xI4K5J3                       2.333333
+xI4K3J4                       2.666667
+xI4K5J4                       2.666667
+xI4K7J4                       2.666667
+xI4K1J5                       3.000000
+xI4K3J5                       3.000000
+xI4K5J5                       3.000000
+xI4K2J6                       3.333333
+xI4K4J6                       3.333333
+xI4K6J6                       3.333333
+xI4K1J7                       3.666667
+xI4K4J7                       3.666667
+xI4K5J7                       3.666667
+xI5K1J1                       2.000000
+xI5K2J1                       2.000000
+xI5K3J1                       2.000000
+xI5K1J2                       2.333333
+xI5K2J2                       2.333333
+xI5K6J2                       2.333333
+xI5K2J3                       2.666667
+xI5K4J3                       2.666667
+xI5K5J3                       2.666667
+xI5K3J4                       3.000000
+xI5K5J4                       3.000000
+xI5K6J4                       3.000000
+xI5K3J5                       3.333333
+xI5K4J5                       3.333333
+xI5K7J5                       3.333333
+xI5K3J6                       3.666667
+xI5K4J6                       3.666667
+xI5K5J6                       3.666667
+xI5K5J7                       4.000000
+xI5K6J7                       4.000000
+xI5K7J7                       4.000000
+xI6K1J1                       2.333333
+xI6K2J1                       2.333333
+xI6K6J1                       2.333333
+xI6K3J2                       2.666667
+xI6K4J2                       2.666667
+xI6K7J2                       2.666667
+xI6K3J3                       3.000000
+xI6K6J3                       3.000000
+xI6K7J3                       3.000000
+xI6K3J4                       3.333333
+xI6K6J4                       3.333333
+xI6K7J4                       3.333333
+xI6K4J5                       3.666667
+xI6K5J5                       3.666667
+xI6K7J5                       3.666667
+xI6K4J6                       4.000000
+xI6K6J6                       4.000000
+xI6K7J6                       4.000000
+xI6K1J7                       4.333333
+xI6K4J7                       4.333333
+xI6K5J7                       4.333333
+xI7K2J1                       2.666667
+xI7K4J1                       2.666667
+xI7K6J1                       2.666667
+xI7K3J2                       3.000000
+xI7K4J2                       3.000000
+xI7K7J2                       3.000000
+xI7K3J3                       3.333333
+xI7K4J3                       3.333333
+xI7K6J3                       3.333333
+xI7K5J4                       3.666667
+xI7K6J4                       3.666667
+xI7K7J4                       3.666667
+xI7K3J5                       4.000000
+xI7K5J5                       4.000000
+xI7K7J5                       4.000000
+xI7K4J6                       4.333333
+xI7K5J6                       4.333333
+xI7K6J6                       4.333333
+xI7K1J7                       4.666667
+xI7K2J7                       4.666667
+xI7K6J7                       4.666667
+cI1K1                         9.000000
+cI1K2                         9.000000
+cI1K3                         2.666667
+cI1K4                         4.333333
+cI1K5                         2.000000
+cI1K6                         4.333333
+cI1K7                         3.666667
+cI2K1                         8.333333
+cI2K2                        11.000000
+cI2K3                         6.000000
+cI2K4                         3.666667
+cI2K5                         1.666667
+cI2K6                         5.666667
+cI2K7                         5.666667
+cI3K1                        10.333333
+cI3K2                        10.000000
+cI3K3                        10.333333
+cI3K4                         3.333333
+cI3K5                         5.333333
+cI3K6                         2.000000
+cI3K7                         7.666667
+cI4K1                        12.666667
+cI4K2                         9.333333
+cI4K3                         5.666667
+cI4K4                         7.000000
+cI4K5                        13.666667
+cI4K6                         3.333333
+cI4K7                         4.333333
+cI5K1                         4.333333
+cI5K2                         7.000000
+cI5K3                        12.000000
+cI5K4                         9.666667
+cI5K5                        13.333333
+cI5K6                         9.333333
+cI5K7                         7.333333
+cI6K1                         6.666667
+cI6K2                         2.333333
+cI6K3                         9.000000
+cI6K4                        14.666667
+cI6K5                         8.000000
+cI6K6                        12.666667
+cI6K7                        16.666667
+cI7K1                         4.666667
+cI7K2                         7.333333
+cI7K3                        10.333333
+cI7K4                        13.333333
+cI7K5                        12.000000
+cI7K6                        18.666667
+cI7K7                        10.666667
+dK1J1                         9.000000
+dK1J2                         8.333333
+dK1J3                         7.333333
+dK1J4                         6.000000
+dK1J5                         7.333333
+dK1J6                         5.333333
+dK1J7                        12.666667
+dK2J1                        11.666667
+dK2J2                         8.333333
+dK2J3                        10.000000
+dK2J4                         6.000000
+dK2J5                         7.000000
+dK2J6                         8.333333
+dK2J7                         4.666667
+dK3J1                         4.333333
+dK3J2                         5.666667
+dK3J3                         6.333333
+dK3J4                        11.000000
+dK3J5                        13.000000
+dK3J6                         6.666667
+dK3J7                         9.000000
+dK4J1                         2.666667
+dK4J2                         7.000000
+dK4J3                         6.000000
+dK4J4                         1.666667
+dK4J5                         9.333333
+dK4J6                        15.333333
+dK4J7                        14.000000
+dK5J2                         2.000000
+dK5J3                         6.666667
+dK5J4                        11.666667
+dK5J5                        12.666667
+dK5J6                        11.000000
+dK5J7                        12.000000
+dK6J1                         5.666667
+dK6J2                         2.333333
+dK6J3                         9.666667
+dK6J4                        10.000000
+dK6J6                        16.666667
+dK6J7                        11.666667
+dK7J1                         1.666667
+dK7J2                         8.333333
+dK7J3                         3.000000
+dK7J4                         9.666667
+dK7J5                        13.666667
+dK7J6                         6.666667
+dK7J7                        13.000000
+uI1K1J1                       1.000000
+uI1K2J1                       1.000000
+uI1K6J1                       1.000000
+uI1K1J2                       1.000000
+uI1K2J2                       1.000000
+uI1K7J2                       1.000000
+uI1K1J3                       1.000000
+uI1K2J3                       1.000000
+uI1K6J3                       1.000000
+uI1K1J4                       1.000000
+uI1K2J4                       1.000000
+uI1K4J4                       1.000000
+uI1K1J5                       1.000000
+uI1K2J5                       1.000000
+uI1K5J5                       1.000000
+uI1K1J6                       1.000000
+uI1K2J6                       1.000000
+uI1K6J6                       1.000000
+uI1K3J7                       1.000000
+uI1K4J7                       1.000000
+uI1K7J7                       1.000000
+uI2K1J1                       1.000000
+uI2K2J1                       1.000000
+uI2K3J1                       1.000000
+uI2K1J2                       1.000000
+uI2K2J2                       1.000000
+uI2K4J2                       1.000000
+uI2K1J3                       1.000000
+uI2K2J3                       1.000000
+uI2K5J3                       1.000000
+uI2K1J4                       1.000000
+uI2K2J4                       1.000000
+uI2K3J4                       1.000000
+uI2K1J5                       1.000000
+uI2K2J5                       1.000000
+uI2K4J5                       1.000000
+uI2K2J6                       1.000000
+uI2K6J6                       1.000000
+uI2K7J6                       1.000000
+uI2K3J7                       1.000000
+uI2K6J7                       1.000000
+uI2K7J7                       1.000000
+uI3K1J1                       1.000000
+uI3K2J1                       1.000000
+uI3K3J1                       1.000000
+uI3K1J2                       1.000000
+uI3K2J2                       1.000000
+uI3K7J2                       1.000000
+uI3K1J3                       1.000000
+uI3K2J3                       1.000000
+uI3K6J3                       1.000000
+uI3K1J4                       1.000000
+uI3K2J4                       1.000000
+uI3K5J4                       1.000000
+uI3K2J5                       1.000000
+uI3K3J5                       1.000000
+uI3K7J5                       1.000000
+uI3K1J6                       1.000000
+uI3K3J6                       1.000000
+uI3K5J6                       1.000000
+uI3K3J7                       1.000000
+uI3K4J7                       1.000000
+uI3K7J7                       1.000000
+uI4K1J1                       1.000000
+uI4K2J1                       1.000000
+uI4K7J1                       1.000000
+uI4K1J2                       1.000000
+uI4K2J2                       1.000000
+uI4K5J2                       1.000000
+uI4K1J3                       1.000000
+uI4K2J3                       1.000000
+uI4K5J3                       1.000000
+uI4K3J4                       1.000000
+uI4K5J4                       1.000000
+uI4K7J4                       1.000000
+uI4K1J5                       1.000000
+uI4K3J5                       1.000000
+uI4K5J5                       1.000000
+uI4K2J6                       1.000000
+uI4K4J6                       1.000000
+uI4K6J6                       1.000000
+uI4K1J7                       1.000000
+uI4K4J7                       1.000000
+uI4K5J7                       1.000000
+uI5K1J1                       1.000000
+uI5K2J1                       1.000000
+uI5K3J1                       1.000000
+uI5K1J2                       1.000000
+uI5K2J2                       1.000000
+uI5K6J2                       1.000000
+uI5K2J3                       1.000000
+uI5K4J3                       1.000000
+uI5K5J3                       1.000000
+uI5K3J4                       1.000000
+uI5K5J4                       1.000000
+uI5K6J4                       1.000000
+uI5K3J5                       1.000000
+uI5K4J5                       1.000000
+uI5K7J5                       1.000000
+uI5K3J6                       1.000000
+uI5K4J6                       1.000000
+uI5K5J6                       1.000000
+uI5K5J7                       1.000000
+uI5K6J7                       1.000000
+uI5K7J7                       1.000000
+uI6K1J1                       1.000000
+uI6K2J1                       1.000000
+uI6K6J1                       1.000000
+uI6K3J2                       1.000000
+uI6K4J2                       1.000000
+uI6K7J2                       1.000000
+uI6K3J3                       1.000000
+uI6K6J3                       1.000000
+uI6K7J3                       1.000000
+uI6K3J4                       1.000000
+uI6K6J4                       1.000000
+uI6K7J4                       1.000000
+uI6K4J5                       1.000000
+uI6K5J5                       1.000000
+uI6K7J5                       1.000000
+uI6K4J6                       1.000000
+uI6K6J6                       1.000000
+uI6K7J6                       1.000000
+uI6K1J7                       1.000000
+uI6K4J7                       1.000000
+uI6K5J7                       1.000000
+uI7K2J1                       1.000000
+uI7K4J1                       1.000000
+uI7K6J1                       1.000000
+uI7K3J2                       1.000000
+uI7K4J2                       1.000000
+uI7K7J2                       1.000000
+uI7K3J3                       1.000000
+uI7K4J3                       1.000000
+uI7K6J3                       1.000000
+uI7K5J4                       1.000000
+uI7K6J4                       1.000000
+uI7K7J4                       1.000000
+uI7K3J5                       1.000000
+uI7K5J5                       1.000000
+uI7K7J5                       1.000000
+uI7K4J6                       1.000000
+uI7K5J6                       1.000000
+uI7K6J6                       1.000000
+uI7K1J7                       1.000000
+uI7K2J7                       1.000000
+uI7K6J7                       1.000000
+lK1                          56.000000
+lK2                          56.000000
+lK3                          56.000000
+lK4                          56.000000
+lK5                          56.000000
+lK6                          56.000000
+lK7                          56.000000
+All other variables in the range 1-792 are 0.
+
+Log started (V12.8.0.0) Sun Jun  3 22:50:00 2018
+
+
+Problem 'Y=2.lp' read.
+Read time = 0.00 sec. (0.01 ticks)
+Row 'c1' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.02 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.03 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.03 ticks)
+
+
+MIP - Integer infeasible.
+Current MIP best bound =  0.0000000000e+00 (gap is infinite)
+Solution time =    0.00 sec.  Iterations = 0  Nodes = 0
+Deterministic time = 0.03 ticks  (21.73 ticks/sec)
+
+No integer feasible solution exists.
