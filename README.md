@@ -20,7 +20,3 @@ or, for running multiple XYZ networks in flow.py:
 
  * Loomes, Robert (~50%)
  * Ross, Adam (~50%)
-
-### Assignment Administrivia
-
-https://github.com/R055A/InternetTechnologyAndEngineeringAssignmentTwo/blob/master/Documentation/flow-assignment.pdf
